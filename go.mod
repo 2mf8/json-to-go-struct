@@ -1,4 +1,4 @@
-module json2struct
+module github.com/2mf8/json-to-go-struct
 
 go 1.24.0
 
