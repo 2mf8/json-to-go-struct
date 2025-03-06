@@ -77,6 +77,8 @@ func main() {
 	        "robot_type": 1
 	}]
 	}`
-	jtg.JsonUnmarshalReset("Good", jsonstring)
+	jtg.JsonUnmarshal("Good", jsonstring)
 	jtg.Init("json", "good")
+	jtg.JsonShortUnmarshal("GoodShort", jsonstring)
+	jtg.Init("json", "goodshort")
 }
